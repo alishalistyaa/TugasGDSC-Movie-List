@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./second-styling.css" />
+        <title>Letterboxd</title>
+    </head>
+    <body>
+        <div class="container mx-auto relative">
+            <div class="background row absolute">
+                <img
+                    class="absolute"
+                    src="./imgs/foto-itb3.png"
+                    alt=""
+                    height="100%"
+                    width="98%"
+                />
+                <span class="absolute text-white movie-title"
+                    ><a href="#">Salah Jurusan (2021)</a></span
+                >
+            </div>
+            <header class="row relative justify-content-between">
+                <img class="col-3 lg-col-4 md-col-5 xsm-col-6" src="./imgs/logo-white.png" alt="" />
+                <nav class="col-9 d-flex-row align-items-center lg-d-none">
+                    <ul class="col-12 justify-content-end nav-list">
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">SIGN IN</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">CREATE ACCOUNT</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">FILMS</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">LISTS</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link text-white small" href="#">PEOPLE</a>
+                        </li>
+                        <li class="nav-list-item col-2 relative">
+                            <input type="search" /><img
+                                class="absolute"
+                                src="./imgs/iconmonstr-magnifier-6-24.png"
+                                alt=""
+                            />
+                        </li>
+                    </ul>
+                </nav>
+                <ul
+                    class="burger-menu col-6 d-none lg-d-flex-row justify-content-end no-list-style"
+                >
+                    <li class="col-6 sm-col-7 xsm-col-8 relative d-flex-row align-items-center">
+                        <input type="search" /><img
+                            class="absolute"
+                            src="./imgs/iconmonstr-magnifier-6-24.png"
+                            alt=""
+                        />
+                    </li>
+                    <li class="col-2 sm-col-3 d-flex-row align-items-center">
+                        <img src="./imgs/iconmonstr-menu-1-24.png" alt="" />
+                    </li>
+                </ul>
+            </header>
+            <main>
+                <section class="intro row">
+                    <article class="col-12 d-flex-col">
+                        <h1 class="h1 text-white mx-auto col-12">
+                            Mirip letterboxd. <br />
+                            Tapi gapapa ayo liat film. <br />
+                        </h1>
+                        <button class="mx-auto col-3 lg-col-4 sm-col-6 xsm-col-7">
+                            MULAI &mdash; PERJALANAN!
+                        </button>
+                        <p
+                            class="d-flex-row sm-d-none mx-auto col-8 lg-col-12 justify-content-center"
+                        >
+                            Sebenernya tugas GDSC ITB. Mungkin ada di
+                            <i class="apple-logo"></i><i class="android-logo"></i>
+                        </p>
+                        <p
+                            class="d-none sm-d-flex-row mx-auto col-8 lg-col-12 justify-content-center"
+                        >
+                            Sebenernya tugas GDSC ITB.
+                        </p>
+                        <p
+                            class="d-none sm-d-flex-row mx-auto col-8 lg-col-12 justify-content-center"
+                        >
+                            Mungkin ada di <i class="apple-logo"></i><i class="android-logo"></i>
+                        </p>
+                    </article>
+                </section>
+                
+                <section class="popular-films row">
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img id="PerfectBlue"src="./imgs/film-perfect-blue.png" alt="" />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>2,523</li>
+                            <li class="liked"></li>
+                            <li>892</li>
+
+                            <div class= "modal-container" id="modal_container2">
+                                <div class="modal">
+                                    <h1 class="judul"> <br> </h1>
+                                    <p class= "deskripsi">
+                                        <br>A retired pop singer turned actress’<br> 
+                                        sense of reality is shaken when she <br> 
+                                        is stalked by an obsessed fan and <br> 
+                                        seemingly a ghost of her past. <br> 
+                                    </p>
+                                </div>
+                            </div>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img id="LadyBird" src="./imgs/film-lady-bird.png" alt="" />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>13,409</li>
+                            <li class="liked"></li>
+                            <li>3,664</li>
+
+                            <div class= "modal-container" id="modal_container2">
+                                <div class="modal">
+                                    <h1 class="judul"> <br> </h1>
+                                    <p class= "deskripsi">
+                                        <br>A California high school student plans <br>
+                                        to escape from her family and small town by <br>
+                                        going to college in New York, much to the <br>
+                                        disapproval of wildly loving, deeply opinionated<br>
+                                        and strong-willed mother.
+                                    </p>
+                                </div>
+                            </div>
+                        </ul>
+                        
+                        
+                    </div>
+
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img id="Minari"src="./imgs/film-minari.png" alt="" />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>76,152</li>
+                            <li class="liked"></li>
+                            <li>23,700</li>
+                            
+                            <div>
+                                <div class="modal">
+                                    <h1 class="judul"> <br> </h1>
+                                    <p class= "deskripsi">
+                                        <br>It’s the 1980s, and David, <br>
+                                        a seven-year-old Korean American boy, <br>
+                                        is faced with new surroundings and a <br>
+                                        different way of life when his father, <br>
+                                        Jacob, moves their family from the West Coast <br>
+                                        to rural Arkansas. 
+                                    </p>
+                                </div>
+                            </div>
+
+                        </ul>
+                    </div>
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img
+                                id="Wordsbubble"
+                                src="./imgs/film-intovert.png"
+                                alt=""
+                            />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            
+                            <li class="watched"></li>
+                            <li>105,321</li>
+                            <li class="liked"></li>
+                            <li>38,376</li>
+                            
+
+                            <div>
+                                <div class="modal">
+                                    <h1 class="judul"> <br> </h1>
+                                    <p class= "deskripsi">
+                                        <br>After meeting one bright, sunny day, <br>
+                                        a shy boy who expresses himself through haiku <br>
+                                        and a bubbly but self-conscious girl share <br>
+                                        a brief, magical summer.
+                                    </p>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center sm-mb-">
+                            <img
+                                id="Josee"
+                                src="./imgs/film-josee-totora.png"
+                                alt=""
+                            />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>133,216</li>
+                            <li class="liked"></li>
+                            <li>41,765</li>
+
+                            <div>
+                                <div class="modal">
+                                    <h1 class="judul"> <br> </h1>
+                                    <p class= "deskripsi">
+                                        <br>With dreams of diving abroad, Tsuneo gets a job <br>
+                                        assisting Josee, an artist whose imagination takes her<br>
+                                         far beyond her wheelchair. But when the tide turns <br>
+                                         against them, they push each other to places they never <br>
+                                         thought possible, and inspire a love fit for a storybook.
+                                    </p>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-2 relative sm-col-4 sm-d-flex-row sm-justify-content-center">
+                        <a href="#" class="col-12 sm-d-flex-row sm-justify-content-center">
+                            <img
+                                id="Portraitofalady"
+                                src="./imgs/460830-portrait-of-a-lady-on-fire-0-150-0-225-crop.jpg"
+                                alt=""
+                            />
+                        </a>
+                        <ul class="no-list-style absolute d-flex-col align-items-center lg-d-none">
+                            <li class="watched"></li>
+                            <li>122,751</li>
+                            <li class="liked"></li>
+                            <li>59,421</li>
+
+                            <div>
+                                <div class="modal">
+                                    <h1 class="judul"> <br> </h1>
+                                    <p class= "deskripsi">
+                                        <br>On an isolated island in Brittany at the end of the <br>
+                                        eighteenth century, a female painter is obliged to paint <br>
+                                        a wedding portrait of a young woman.
+                                    </p>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </section>
+                <section class="letterboxd-lets-you row d-flex-row flex-nowrap">
+                    <h3 class="col-12 small font-normal"><br><br><br>APA SIH GUNANYA?</h3>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper green d-flex-row align-items-start 12 no-p">
+                            <div class="watch col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Dalam tugas GDSC ini, saya bisa melihat kegunaan HTML, 
+                                CSS dalam pembuatan Frontend Development.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper orange d-flex-row align-items-start 12 no-p">
+                            <div class="like col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Dalam tugas ini, saya juga belajar menyukai fontend development
+                                dan coding in general.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper blue d-flex-row align-items-start 12 no-p">
+                            <div class="bars col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Dalam tugas ini, saya bisa menulis sebuah karya dan ekspresikan kreativitas saya 
+                                dalam membuat website.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper green d-flex-row align-items-start 12 no-p">
+                            <div class="star col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Di letterboxd, ini bintang. Tugas ini adalah bintang?
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper orange d-flex-row align-items-start 12 no-p">
+                            <div class="case col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Dalam tugas ini, saya juga belajar untuk memanage waktu saya karena saya 
+                                sangat pusing dengan
+                                <span class="font-bold">UTS Fisika</span>.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="d-flex-row col-4 sm-col-6 xsm-col-12">
+                        <div class="wrapper blue d-flex-row align-items-start 12 no-p">
+                            <div class="squares col-2"></div>
+                            <p class="col-4 text-white col-10">
+                                Tugas ini juga menjadi sarana bagi saya untuk menggabungkan
+                                komponen-komponen menjadi sesuatu yang baik.
+                            </p>
+                        </div>
+                    </article>
+                </section>
+                <section class="just-reviewed row">
+                    <header class="d-flex-row col-12 justify-content-between">
+                        <h3 class="small">FILM-FILM KECIL...</h3>
+                        <small>410,186,419 films watched</small>
+                    </header>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/film-jojorabit.png" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/film-wandavision.png" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/film-submarine.png" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/film-mirainomirai.png" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/film-spiritedaway.png" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/film-littlewomen.png" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img
+                            src="./imgs/film-imaydestroyyou.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img
+                            src="./imgs/film-blackswan.png"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/film-tenet.png" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/51376-the-rules-of-the-game-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img
+                            src="./imgs/129816-mission-impossible-rogue-nation-0-70-0-105-crop.jpg"
+                            alt=""
+                        />
+                    </div>
+                    <div class="col-1 sm-col-2 sm-d-flex-row sm-justify-content-center xsm-col-3">
+                        <img src="./imgs/harrypotter2-0-70-0-105-crop.jpg" alt="" />
+                    </div>
+                    <p class="col-12 text-center h2 font-normal">
+                        Tuliskan reviewmu terhadap film favoritmu!
+                    </p>
+                    <p class="col-12 text-center small">
+                        Dibawah merupakan review dari beberapa teman Alisha!
+                        <span><a href="#">Ayo kenalan</a></span> dengan Alisha untuk menambah review.
+                    </p>
+                </section>
+                <section class="popular row">
+                    <section class="popular-this-week col-8 sm-col-12">
+                        <header class="d-flex-row justify-content-between">
+                            <h5 class="h6 font-normal">POPULAR REVIEWS THIS WEEK</h5>
+                            <span><a href="#" class="small">MORE</a></span>
+                        </header>
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img src="./imgs/film-mirainomirai.png" alt="" />
+                                </div>
+                                <figcaption class="col-10 text-white">
+                                    <h3 class="h3 text-white">
+                                        Mirai no Mirai <span class="font-normal">2018</span>
+                                    </h3>
+                                    <div
+                                        class="commenter d-flex-row align-items-center d-flex-row align-items-center"
+                                    >
+                                        <img src="./imgs/profile-picture.png" alt="" width="35%" height="35%" />
+                                        <span class="font-bold">Alisha Listya</span>
+                                        <img src="./imgs/4-and-half.png" alt=""/>
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">15</span>
+                                    </div>
+                                    <p>
+                                        jujurly plot filmnya biasa aja, tapi the architecture of the house 
+                                        is something else! Watching till the end for the house.
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 1002 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img
+                                        src="./imgs/film-imaydestroyyou.png"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <figcaption class="col-10 text-white">
+                                    <h3 class="h3 text-white">
+                                        I May Destroy You <span class="font-normal">2020</span>
+                                    </h3>
+                                    <div class="commenter d-flex-row align-items-center">
+                                        <img src="./imgs/karsten.png" alt="" />
+                                        <span class="font-bold">Ahsila Aytsil</span>
+                                        <img src="./imgs/5-stars.png" alt="" />
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">26</span>
+                                    </div>
+                                    <p>
+                                        Was recommended by a friend, interestingly intriguing to watch!
+                                        This is not, at all, halal-friendly. Stay halal guys.
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 495 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img
+                                        src="./imgs/film-spiritedaway.png"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <figcaption class="col-10 text-white">
+                                    <h3 class="h3 text-white">
+                                        Spirited Away <span class="font-normal">2003</span>
+                                    </h3>
+                                    <div class="commenter d-flex-row align-items-center">
+                                        <img src="./imgs/brat.png" alt="" />
+                                        <span class="font-bold">Wardhani</span>
+                                        <img src="./imgs/5-stars.png" alt="" />
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">35</span>
+                                    </div>
+                                    <p>
+                                        Spirited away is my all-time favorite film to watch since I was
+                                        a child! The story is so intriguing and fantastic. And the idea
+                                        of being lost in a ghost-world really captivate my mind. I had no idea
+                                        how they were able to make this movie with no modern-technology. Hayao Miyazaki
+                                        is a masterful storyteller that brings mundane...
+                                         <a href="#" class="more">more</a>
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 1,421 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img src="./imgs/film-uncutgems.png" alt="" />
+                                </div>
+
+                                <figcaption class="col-10 text-white">
+                                    <h3 class="h3 text-white">
+                                        Uncut Gems <span class="font-normal">2019</span>
+                                    </h3>
+                                    <div class="commenter d-flex-row align-items-center">
+                                        <img src="./imgs/sean.png" alt="" />
+                                        <span class="font-bold">Halliday Resnick</span>
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">9</span>
+                                    </div>
+                                    <p>
+                                        Fantastic film. Really is a fantastic one. 
+                                        A game changer if some will say. Although not may people will agree,
+                                        Uncut Gems is obviously one of the films 
+                                        that managed to capture a chaotic string of dialouges to
+                                        make the scene feels so stressed. I was watching this on a 
+                                        Wednesday afternoon and were like 'how the fuck is he even going to
+                                        deal with this?' This movie deals with a rabbithole of problems
+                                        that it is not even possible to make out what is going to happen next. 
+                                        Real gem. Uncut gem.
+                                        This will be on my top ten of 2020.
+                                        Guaranteed. Streamed
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 423 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img src="./imgs/whiplash.jpg" alt="" />
+                                </div>
+                                <figcaption class="col-10 text-white">
+                                    <h3 class="h3 text-white">
+                                        Whiplash <span class="font-normal">2014</span>
+                                    </h3>
+                                    <div class="commenter d-flex-row align-items-center">
+                                        <img src="./imgs/random.png" alt="" />
+                                        <span class="font-bold">Cetta</span>
+                                        <img src="./imgs/5-stars.png" alt="" />
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">141</span>
+                                    </div>
+                                    <p>
+                                        A terrifying film for musicians. I cant believe how Andrew's final
+                                        scene brings me so much shock. Fletcher is a daunting-nightmare for 
+                                        me, especially as a fellow musician. But everything in this film are great.
+                                        In all honesty, I was shocked that Fletcher did NOT have an arc 
+                                        to become a nicer person. I thought he was going to change, like any normal 
+                                        movie with a normal plot would. But this is not a normal movie with a normal plot. This is an 
+                                        extraordinary movie with an extraordinary plot.
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 671 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+
+                        <article class="w-100">
+                            <figure class="d-flex-row align-items-start">
+                                <div class="col-2">
+                                    <img
+                                        src="./imgs/460830-portrait-of-a-lady-on-fire-0-70-0-105-crop.jpg"
+                                        alt=""
+                                    />
+                                </div>
+
+                                <figcaption class="col-10">
+                                    <h3 class="h3 text-white">
+                                        Portrait of a Lady on Fire
+                                        <span class="font-normal">2019</span>
+                                    </h3>
+                                    <div class="commenter d-flex-row align-items-center">
+                                        <img src="./imgs/adrian.png" alt="" />
+                                        <span class="font-bold">Purcell</span>
+                                        <img src="./imgs/4-and-half.png" alt="" />
+                                        <i class="speech-bubble"></i>
+                                        <span class="comments-amount">3</span>
+                                    </div>
+                                    <p>
+                                        again, recommended by a friend. Would recommend it to you now.
+                                    </p>
+                                    <p class="d-flex-row align-items-center">
+                                        <i class="heart"></i> 619 likes
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </article>
+                    </section>
+                    <!-- POPULAR LISTS AND REVIEWERS SECTION -->
+                    <section
+                        class="popular-lists-reviewers col-4 sm-col-12 d-flex-row sm-justify-content-between xsm-flex-wrap"
+                    >
+                        <section
+                            class="popular-lists col-12 sm-col-6 xsm-col-12 xsm-d-flex-col xsm-align-items-center"
+                        >
+                            <header class="d-flex-row justify-content-between w-100">
+                                <h5 class="h5 font-normal">POPULAR LISTS</h5>
+                                <span><a href="#" class="small">MORE</a></span>
+                            </header>
+                            <article class="list xsm-col-10">
+                                <a href="#">
+                                    <ul class="no-list-style d-flex-row">
+                                        <li class="relative">
+                                            <img src="./imgs/jackie.jpg" alt="" />
+                                        </li>
+                                        <li class="relative">
+                                            <img
+                                                src="./imgs/293066-suspiria-0-70-0-105-crop.jpg"
+                                                alt=""
+                                            />
+                                        </li>
+                                        <li class="relative">
+                                            <img src="./imgs/28-days-later.jpg" alt="" />
+                                        </li>
+                                        <li class="relative">
+                                            <img src="./imgs/jojo-rabbit.jpg" alt="" />
+                                        </li>
+                                        <li class="relative">
+                                            <img src="./imgs/8-and-a-half.jpg" alt="" />
+                                        </li>
+                                    </ul>
+                                </a>
+                                <h4 class="h6 text-white">All i SEE IS RED,</h4>
+                                <p class="d-flex-row align-items-center">
+                                    <img src="./imgs/em.png" alt="" />
+                                    <span class="font-bold small">Red Flag</span>
+                                    <i class="heart"></i> 3,428<i class="speech-bubble"></i> 84
+                                </p>
+                            </article>
+
+                            <article class="list xsm-col-10">
+                                <a href="#">
+                                    <ul class="no-list-style d-flex-row">
+                                        <li class="relative">
+                                            <img
+                                                src="./imgs/51818-the-godfather-0-70-0-105-crop.jpg"
+                                                alt=""
+                                            />
+                                        </li>
+                                        <li class="relative">
+                                            <img
+                                                src="./imgs/51816-the-godfather-part-ii-0-70-0-105-crop.jpg"
+                                                alt=""
+                                            />
+                                        </li>
+                                        <li class="relative">
+                                            <img src="./imgs/seven-samurai.jpg" alt="" />
+                                        </li>
+                                        <li class="relative">
+                                            <img
+                                                src="./imgs/51444-pulp-fiction-0-70-0-105-crop.jpg"
+                                                alt=""
+                                            />
+                                        </li>
+                                        <li class="relative">
+                                            <img
+                                                src="./imgs/51700-12-angry-men-0-70-0-105-crop.jpg"
+                                                alt=""
+                                            />
+                                        </li>
+                                    </ul>
+                                </a>
+                                <h4 class="h6 text-white">
+                                    2021 Edition: Greatest movies to cry to after UTS.
+                                </h4>
+                                <p class="d-flex-row align-items-center">
+                                    <img src="./imgs/top10ner.png" alt="" />
+                                    <span class="font-bold small">TPB2021</span>
+                                    <i class="heart"></i> 3,434<i class="speech-bubble"></i> 66
+                                </p>
+                            </article>
+
+                            <article class="list xsm-col-10">
+                                <a href="#">
+                                    <ul class="no-list-style d-flex-row">
+                                        <li class="relative">
+                                            <img src="./imgs/the-age-of-innocence.jpg" alt="" />
+                                        </li>
+                                        <li class="relative">
+                                            <img src="./imgs/all-the-presidents-men.jpg" alt="" />
+                                        </li>
+                                        <li class="relative">
+                                            <img src="./imgs/arrival.jpg" alt="" />
+                                        </li>
+                                        <li class="relative">
+                                            <img src="./imgs/baby-driver.jpg" alt="" />
+                                        </li>
+                                        <li class="relative">
+                                            <img src="./imgs/royale.jpg" alt="" />
+                                        </li>
+                                    </ul>
+                                </a>
+                                <h4 class="h6 text-white">
+                                    Good Movies to study Calc to
+                                </h4>
+                                <p class="d-flex-row align-items-center">
+                                    <img src="./imgs/adrian.png" alt="" />
+                                    <span class="font-bold small">Purcell</span>
+                                    <i class="heart"></i> 5,105<i class="speech-bubble"></i> 243
+                                </p>
+                            </article>
+                        </section>
+                        <section class="popular-reviewers col-12 sm-col-5 xsm-col-12">
+                            <header class="d-flex-row justify-content-between">
+                                <h5 class="h5 font-normal">POPULAR REVIEWERS</h5>
+                                <span><a href="#" class="small">MORE</a></span>
+                            </header>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/brat.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">Cetta Reswara</h5>
+                                    <p class="small">
+                                        <a href="#">1,934 films,</a> <a href="#">1,248 reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/lucy.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">Nafa Lutfia</h5>
+                                    <p class="small">
+                                        <a href="#">2,016 films,</a> <a href="#">1,227 reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/adrian.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">Art Tatum</h5>
+                                    <p class="small">
+                                        <a href="#">1,210 films,</a> <a href="#">1,161 reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/random.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">Garland</h5>
+                                    <p class="small">
+                                        <a href="#">1,168 films,</a> <a href="#">647reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                            <figure class="d-flex-row justify-content-start">
+                                <img class="xsm-col-2" src="./imgs/maria.png" alt="" />
+                                <figcaption>
+                                    <h5 class="h5 text-white">if Chet Baker's still alive he'll be justin beiber</h5>
+                                    <p class="small">
+                                        <a href="#">1,501 films,</a> <a href="#">398 reviews</a>
+                                    </p>
+                                </figcaption>
+                            </figure>
+                        </section>
+                    </section>
+                </section>
+                <section class="recent-news row">
+                    <header class="d-flex-row justify-content-between col-12">
+                        <h5 class="h6 font-normal">RECENT NEWS</h5>
+                        <span><a href="#" class="small">MORE</a></span>
+                    </header>
+                    <article class="col-4 xsm-col-12">
+                        <figure class="d-flex-col">
+                            <img src="./imgs/touching-the-void.png" alt="" />
+                            <figcaption>
+                                <h3 class="h3 text-white">Touching the Void</h3>
+                                <p>
+                                    An in-depth look at film posters with white backgrounds, and
+                                    what they mean.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-4 xsm-col-12">
+                        <figure class="d-flex-col">
+                            <img src="./imgs/infinite-playlists.png" alt="" />
+                            <figcaption>
+                                <h3 class="h3 text-white">Infinite Playlists</h3>
+                                <p>
+                                    A selection of Letterboxd lists to help you decide what films to
+                                    stream next.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                    <article class="col-4 xsm-col-12">
+                        <figure class="d-flex-col">
+                            <img src="./imgs/how-i-letterboxd.png" alt="" />
+                            <figcaption>
+                                <h3 class="h3 text-white">How I Letterboxd: Dave Chen</h3>
+                                <p>
+                                    A podcaster, musician and filmmaker known for his weirdly
+                                    specific lists.
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </article>
+                </section>
+            </main>
+            <footer class="row">
+                <div class="d-flex-row justify-content-between col-12 flex-wrap">
+                    <ul
+                        class="d-flex-row no-list-style justify-content-between col-9 lg-col-12 sm-flex-wrap sm-justify-content-start"
+                    >
+                        <li class="font-bold">About</li>
+                        <li class="font-bold">News</li>
+                        <li class="font-bold">Pro</li>
+                        <li class="font-bold">Apps</li>
+                        <li class="font-bold">Year in Review</li>
+                        <li class="font-bold">Gift Guide</li>
+                        <li class="font-bold">Podcast</li>
+                        <li class="font-bold">Help</li>
+                        <li class="font-bold">Terms</li>
+                        <li class="font-bold">API</li>
+                        <li class="font-bold">Contact</li>
+                    </ul>
+                    <ul class="d-flex-row no-list-style justify-content-between col-2 sm-col-5">
+                        <li><img src="./imgs/iconmonstr-twitter-1-24.png" alt="" /></li>
+                        <li>/</li>
+                        <li><img src="./imgs/iconmonstr-facebook-4-24.png" alt="" /></li>
+                        <li>/</li>
+                        <li><img src="./imgs/iconmonstr-instagram-11-24.png" alt="" /></li>
+                    </ul>
+                </div>
+                <p class="col-12">
+                    &copy; An imitation of Letterboxd. Made by <a href="#">Alisha Listya</a> 
+                     <a href="#">Films here</a> from <a href="#">personal recommendations</a>.
+
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
